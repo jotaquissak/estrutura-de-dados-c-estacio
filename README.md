@@ -32,7 +32,7 @@
   **O cálculo da complexidade se dá pela formula de recorrência, que é váriavel.**
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/80067222/201251176-18a57873-0464-416b-9a17-093920c69e0e.png" width="433px" height="78px"/>
+<img src="https://user-images.githubusercontent.com/80067222/201251562-360c07b2-6c42-406f-a587-a29de5a3585c.png" width="433px" height="78px"/>
 </div>
 
  **Importante**: Olhando apenas os números faz parecer que os mesmo são próximos, mas conforme o gráfico abaixo, pode se perceber diferenças grandes entrem eles.
