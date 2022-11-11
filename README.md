@@ -25,7 +25,7 @@
   O metodo de ordenação citado se basea na ideia de "Dividir para conquistar", ou seja, ele divide o vetor inicial em subvetores que continuam a se dividir em vetores subsequentes até que sobre apenas 1 índice dentro do vetor. Isso feito os subvetores volta a se reagrupar formando vetores maiores organizados até voltar ao tamanho do vetor original.
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/80067222/201232281-17996b90-f887-4bf1-bccb-52aaecbe120e.gif" width="400px"/>
+<img src="https://user-images.githubusercontent.com/80067222/201250130-4e378701-9c2f-4379-b06a-c1943381d73c.gif" width="400px"/>
 </div>
 
 ## Comparação de Complexidade
