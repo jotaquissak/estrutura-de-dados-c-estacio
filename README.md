@@ -1,7 +1,7 @@
 # Trabalho sobre Ordenação
 
-### [Bublle Sort](https://github.com/jotaquissak/estrutura-de-dados-c-estacio/blob/main/bubbleSort.c)
-  O metodo de ordenação citado se basea na ideia de jogar para o final os maiores fazendo uma coparação por vez sendo iniciada apartir do índice 0 e se direcionando até o -1, fazendo a troca se encontra um número menor que o anterior.
+### [Bubble Sort](https://github.com/jotaquissak/estrutura-de-dados-c-estacio/blob/main/bubbleSort.c)
+  O metodo de ordenação citado se basea na ideia de jogar para o final os maiores fazendo uma comparação por vez sendo iniciada apartir do índice 0 e se direcionando até o -1, fazendo a troca se encontra um número menor que o anterior.
 	
 <div align="center">
 <img src="https://user-images.githubusercontent.com/80067222/201231768-41e20129-c0b3-492f-ab96-36e8915ffe0c.gif" width="400px"/>
@@ -40,3 +40,16 @@
 <div align="center">
 <img src="https://user-images.githubusercontent.com/80067222/201233624-790e3ea8-d46d-420f-a2be-72611c090278.jpeg" width="700px">
 </div>
+
+## Comparação de Estabilidade
+  A estabilidade é definida se o metodo de ordenação respeita a ordem lexical do objeto passado.
+  
+  **BubbleSort:** ✔️
+  
+  **InsertionSort:** ✔️
+  
+  **SelectionSort:** ✔️
+  
+  **MergeSort:** ✔️
+  
+  **Importante:** Todos os metodos de ordenação usados respeitam a ordem lexicografia, mas alguns outros não o fazem, como o **HeapSort** e o **QuickSort**
