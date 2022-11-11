@@ -32,10 +32,10 @@
   **O cálculo da complexidade se dá pela formula de recorrência, que é váriavel.**
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/80067222/201232237-23875645-eb11-4e98-bd8c-6c1ddfcba0be.png" width="433px" height="78px"/>
+<img src="https://user-images.githubusercontent.com/80067222/201243473-3e50912c-56c0-44f5-84fa-9a378f5a866a.png" width="433px" height="78px"/>
 </div>
 
-  **Importante**: Olhando apenas os números faz parecer que os mesmo são próximos, mas conforme o gráfico abaixo, pode se perceber diferenças grandes entrem eles.
+ **Importante**: Olhando apenas os números faz parecer que os mesmo são próximos, mas conforme o gráfico abaixo, pode se perceber diferenças grandes entrem eles.
   
 <div align="center">
 <img src="https://user-images.githubusercontent.com/80067222/201233624-790e3ea8-d46d-420f-a2be-72611c090278.jpeg" width="700px">
@@ -53,3 +53,32 @@
   **MergeSort:** ✔️
   
   **Importante:** Todos os metodos de ordenação usados respeitam a ordem lexicografia, mas alguns outros não o fazem, como o **HeapSort** e o **QuickSort**
+  
+ ## Considerações
+  Cada metodo de ordenação pode e tem seu melhor funcionamento em um cenário ideal para ele, com isso irei dar alguns pontos sobre cada um para que assim você possa saber se é o melhor para a sua necessidade.
+  
+  **BubbleSort**:
+  
+  - Suas principais vantagens são sua simplicidade, facilidade de ser criada e não fazer uso de armazenamento temporário.
+  - Sua grande desvantagem é o fato de não suportar listas com muitos elementos, por sua complexidade ser elevada.
+  
+  Portanto, o bubble sort é indicada para o ensino acadêmio, mas não para aplicações na vida real.
+
+  **InsertionSort**:
+  
+  - As principais vantagens são ser uma ordenação simples, tendo um bom desempenho com listas pequenas, baixo uso de memória.
+  - Sua desvantagem com relação a outros metodos de ordenação é sua complexidade extremamente elevada.
+  
+  No entanto, é particularmente útil com listas de poucos itens.
+
+  **SelectionSort**:
+  
+  - As principais vantagens é seu bom desempenho em listas pequenas, não necessitar de armazenamento temporário.
+  - A principal desvantagem é em listas grandes onde sua complexidade se torna um problema.
+  
+  Devido a isso, esse tipo seleção é adequado apenas para uma lista em que poucos elementos estejam em ordem aleatória.
+  
+  **MergeSort**:
+  
+  - A principai vantagem é sua velocidade mesmo em listas com muitos itens, pois não depende da sequência de entrada.
+  - Sua principal desvantagem é a necessidade do uso de um vetor auxiliar, aumentando assim o uso de memória durante a execução.
